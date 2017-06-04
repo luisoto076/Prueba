@@ -1,0 +1,53 @@
+nav{
+  background-color: #444444;
+}
+
+body{
+  background-color: black;
+}
+
+b{
+  color:goldenrod
+}
+
+ul{
+  border-color: black !important;
+  display: inline-block;
+  margin: auto !important;
+}
+
+li{
+  display: inline-block
+}
+
+h2{
+  color:white;
+}
+
+.user-list{
+  display: inline-block;
+}
+
+.user-list{
+  margin-top: 100px !important;
+  display: inherit
+}
+
+.collection-item{
+  background-color: black!important;
+}
+
+.collection-item:hover{
+  background-color: #111111 !important;
+}
+
+.text{
+  font-size: 8px;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.avatar-list{
+  margin-top: 50px !important;
+}
+
