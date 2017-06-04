@@ -7,6 +7,42 @@ body{
   color:white;
 }
 
+
+.carousel.carousel-slider{
+    margin: 20px auto;
+    height: 260px!important;
+    width: 100% !important;
+}
+
+.carousel-item{
+    margin: auto;
+    top: 60px!important;
+    width: 215px!important
+}
+
+.carousel.csl{
+    margin: 20px auto;
+    height: 420px!important;
+    width: 100% !important;
+}
+
+.carousel-item.cil{
+    margin: auto;
+    top: 10px!important;
+    width: 215px!important
+}
+
+.badge{
+  position: relative!important;
+  bottom: 75px;
+  left: 18px;
+  min-width: unset!important;
+}
+
+a.dropdown-button{
+  min-width: 75px!important;
+}
+
 ul{}
 
 li{}

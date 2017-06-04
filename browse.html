@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/browse.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link rel="stylesheet" type="text/css" href="css/avatar.css" media="screen,projection">
     </head>
     <body class=""> 
         <header class="">
@@ -17,10 +18,19 @@
                         <b>Nerd</b>Flix
                     </a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                         <li>
+                        <li>
+                             <form>
+                                <div class="input-field">
+                                    <input id="search" type="search" required>
+                                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                    <i class="material-icons">close</i>
+                                </div>
+                            </form>
+                        </li>
+                        <li>
                         <!-- Menu toggle button -->
                             <a class="dropdown-button" href="#!" data-activates="navbar-collapse0">
-                                <i class="material-icons">notifications</i><span class="new badge">5</span>
+                                <i class="material-icons">notifications</i><span class="new badge" data-badge-caption="">4</span>
                             </a>
                             <ul class="dropdown-content" id="navbar-collapse0">
                                 <li class="">Tienes 5 notificaciones</li>
@@ -37,15 +47,6 @@
                                 </li>
                                 <li class=""><a href="#">Ver todos</a></li>
                             </ul>
-                        </li>
-                        <li>
-                             <form>
-                                <div class="input-field">
-                                    <input id="search" type="search" required>
-                                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                                    <i class="material-icons">close</i>
-                                </div>
-                            </form>
                         </li>
                         <li>
                             <a class="dropdown-button collection-item avatar" href="#!" data-activates="navbar-collapse">
@@ -115,121 +116,107 @@
                     <!-- Main content -->
                     <section class="">
                         <div class="">
-                            <h3>Categoría 1</h3>
+                            <h3> Categoría 1</h3>
                             <div class="">
-                                <div id="myCarousel" class="carousel">
+                                <div >
                                 <!-- Carousel items -->
-                                    <div class="">
-                                        <ol class="">
-                                            <li data-target="#myCarousel" data-slide-to="0" class=""> <i class="" aria-hidden="true"></i></li>
-                                            <li data-target="#myCarousel" data-slide-to="1"><i class="" aria-hidden="true"></i></li>
-                                            <li data-target="#myCarousel" data-slide-to="2"><i class="" aria-hidden="true"></i></li>
-                                        </ol>
-                                        <div class="carousel-item">
-                                            <div class="">
-                                                <div class="">
+                                    <div class="carousel carousel-slider center">                                    
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">A
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">A
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">B
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">B
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">C
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">C
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">D
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">D
                                                     </a>    
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">E
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">E
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">F
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">F
                                                     </a>
                                                 </div>
-                                            </div>
-                                            <!--/row-->
-                                        </div>
+                                        
                                         <!--/item-->
-                                        <div class="carousel-item">
-                                            <div class="">
-                                                <div class="">
+                    
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">G
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">G
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">H
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">H
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">I
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">I
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">J
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">J
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">K
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">K
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">L
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">L
                                                     </a>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="">
-                                                <div class="">
+                                         
+                                      
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">M
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">M
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">N
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">N
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">O
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">O
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">P
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">P
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">Q
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">Q
                                                     </a>
                                                 </div>
-                                                <div class="">
+                                                <div class="carousel-item">
                                                     <a href="#x" class="">
-                                                        <img src="http://placehold.it/215x120" alt="Image" class="">R
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">R
                                                     </a>
                                                 </div>
-                                            </div>
-                                            <!--/row-->
-                                        </div>
+                  
                                         <!--/item-->
                                     </div>
                                     <!--/carousel-inner-->
@@ -245,229 +232,288 @@
                             <!--/well-->
                         </div>
 
-                        <!-- Carrusel 2-->
                         <div class="">
-                            <h3>Categoría 2</h3>
+                            <h3> Categoría 1</h3>
                             <div class="">
-                                <div id="myCarousel2" class="">
-                                    <!-- Carousel items -->
-                                    <div class="">
-                                        <ol class="">
-                                            <li data-target="#myCarousel2" data-slide-to="0" class=""> <i class="" aria-hidden="true"></i></li>
-                                            <li data-target="#myCarousel2" data-slide-to="1"><i class="" aria-hidden="true"></i></li>
-                                            <li data-target="#myCarousel2" data-slide-to="2"><i class="" aria-hidden="true"></i></li>
-                                        </ol>
-                                        <div class="">
-                                            <div class="">
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">A</a>
+                                <div >
+                                <!-- Carousel items -->
+                                    <div class="carousel carousel-slider center">                                    
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">A
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">B</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">B
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">C</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">C
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">D</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">D
+                                                    </a>    
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">E</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">E
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">F</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">F
+                                                    </a>
                                                 </div>
-                                            </div>
-                                            <!--/row-->
-                                        </div>
+                                        
                                         <!--/item-->
-                                        <div class="">
-                                            <div class="">
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">G</a>
+                    
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">G
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">H</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">H
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">I</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">I
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">J</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">J
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">K</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">K
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">L</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">L
+                                                    </a>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="">
-                                            <div class="">
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">M</a>
+                                         
+                                      
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">M
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">N</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">N
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">O</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">O
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">P</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">P
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">Q</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">Q
+                                                    </a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">R</a>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">R
+                                                    </a>
                                                 </div>
-                                            </div>
-                                            <!--/row-->
-                                        </div>
+                  
                                         <!--/item-->
                                     </div>
-                                <!--/carousel-inner-->
-                                <a class="" href="#myCarousel2" data-slide="prev">
-                                    <i class="" aria-hidden="true"></i>
-                                </a>
-                                <a class="" href="#myCarousel2" data-slide="next">
-                                    <i class="" aria-hidden="true"></i>
-                                </a>
+                                    <!--/carousel-inner-->
+                                    <a class="" href="#myCarousel" data-slide="prev">
+                                        <i class="" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="" href="#myCarousel" data-slide="next">
+                                        <i class="" aria-hidden="true"></i>
+                                    </a>
+                                </div>  
+                                <!--/myCarousel-->
                             </div>
+                            <!--/well-->
                             <!--/myCarousel-->
-                        </div>
+                        
                         <!--/well-->
                     </div>
-                    <!-- Termina carrusel 2 --
+                    <!-- Termina carrusel 2 -->
                     <!-- Carrusel 3-->
                     <div class="">
-                        <h3>Categoría 3</h3>
-                        <div class="">
-                            <div id="myCarousel3" class="">
+                            <h3> Categoría 1</h3>
+                            <div class="">
+                                <div >
                                 <!-- Carousel items -->
-                                <div class="">
-                                    <ol class="">
-                                        <li data-target="#myCarousel3" data-slide-to="0" class=""> <i class="" aria-hidden="true"></i>
-                                        </li>
-                                        <li data-target="#myCarousel3" data-slide-to="1"><i class="" aria-hidden="true"></i>
-                                        </li>
-                                        <li data-target="#myCarousel3" data-slide-to="2"><i class="" aria-hidden="true"></i>
-                                        </li>
-                                    </ol>
-                                    <div class="">
-                                        <div class="">
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">A</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">B</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">C</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">D</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">E</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">F</a>
-                                            </div>
-                                        </div>
-                                        <!--/row-->
+                                    <div class="carousel carousel-slider center">                                    
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">A
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">B
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">C
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">D
+                                                    </a>    
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">E
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">F
+                                                    </a>
+                                                </div>
+                                        
+                                        <!--/item-->
+                    
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">G
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">H
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">I
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">J
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">K
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">L
+                                                    </a>
+                                                </div>
+                                         
+                                      
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">M
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">N
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">O
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">P
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">Q
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="#x" class="">
+                                                        <img src="http://placehold.it/215x120" alt="Image" class="img">R
+                                                    </a>
+                                                </div>
+                  
+                                        <!--/item-->
                                     </div>
-                                    <!--/item-->
-                                    <div class="">
-                                        <div class="">
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">G</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">H</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">I</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">J</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">K</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">L</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="">
-                                        <div class="">
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">M</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">N</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">O</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">P</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">Q</a>
-                                            </div>
-                                            <div class=""><a href="#x" class=""><img src="http://placehold.it/215x120" alt="Image" class="">R</a>
-                                            </div>
-                                        </div>
-                                    <!--/row-->
-                                    </div>
-                                    <!--/item-->
-                                </div>
-                                <!--/carousel-inner-->
-                                <a class="" href="#myCarousel3" data-slide="prev"><i class="" aria-hidden="true"></i>
-                                </a>
-                                <a class="" href="#myCarousel3" data-slide="next"><i class="" aria-hidden="true"></i>
-                                </a>
+                                    <!--/carousel-inner-->
+                                    <a class="" href="#myCarousel" data-slide="prev">
+                                        <i class="" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="" href="#myCarousel" data-slide="next">
+                                        <i class="" aria-hidden="true"></i>
+                                    </a>
+                                </div>  
+                                <!--/myCarousel-->
                             </div>
-                        <!--/myCarousel-->
+                            <!--/well-->
                         </div>
-                        <!--/well-->
-                    </div>
                     <!-- Termina carrusel 3 -->
                     <!-- Carrusel 4-->
                     <div class="">
                         <h3>Categoría 4</h3>
                         <div class="">
-                                <div id="myCarousel4" class="">
+                                <div>
                                 <!-- Carousel items -->
-                                    <div class="">
-                                        <ol class="">
-                                            <li data-target="#myCarousel4" data-slide-to="0" class=""> <i class="" aria-hidden="true"></i>
-                                            </li>
-                                            <li data-target="#myCarousel4" data-slide-to="1"><i class="" aria-hidden="true"></i>
-                                            </li>
-                                            <li data-target="#myCarousel4" data-slide-to="2"><i class="" aria-hidden="true"></i>
-                                            </li>
-                                        </ol>
-                                        <div class="">
-                                            <div class="">
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">A</a>
+                                    <div class="carousel carousel-slider center csl">
+                                        
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">A</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="" class="">B</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="" class="">B</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">C</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">C</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">D</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">D</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">E</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">E</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">F</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">F</a>
                                                 </div>
-                                            </div>
-                                              <!--/row-->
-                                        </div>
-                                        <!--/item-->
-                                        <div class="">
-                                            <div class="">
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">G</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">G</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">H</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">H</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">I</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">I</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">J</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">J</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">K</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">K</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">L</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">L</a>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="">
-                                            <div class="">
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">M</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">M</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">N</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">N</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">O</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">O</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">P</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">P</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">Q</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">Q</a>
                                                 </div>
-                                                <div class=""><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">R</a>
+                                                <div class="carousel-item cil"><a href="#x" class=""><img src="http://placehold.it/215x360" alt="Image" class="">R</a>
                                                 </div>
-                                            </div>
-                                            <!--/row-->
-                                        </div>
                                         <!--/item-->
                                     </div>
                                     <!--/carousel-inner-->
@@ -499,7 +545,7 @@
         <script src="js/init.js"></script>
         <script>
             $(document).ready(function(){
-                $('.carousel').carousel();
+                $('.carousel.carousel-slider').carousel({shift:-40,padding:300,dist:-70});
                 $(".dropdown-button").dropdown();
             });
         </script>
