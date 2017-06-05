@@ -14,10 +14,21 @@
         <header class="">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">
+                    <a href="#" class="brand-logo" >
                         <b>Nerd</b>Flix
                     </a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#" class="dropdown-button" data-activates="navbar-collapse3">
+                                Categorías
+                            </a>
+                            <ul id="navbar-collapse3" class="section table-of-contents dropdown-content">
+                                <li><a href="#c1">Categoria 1</a></li>
+                                <li><a href="#c2">Categoria 2</a></li>
+                                <li><a href="#c3">Categoria 3</a></li>
+                                <li><a href="#c4">Categoria 4</a></li>
+                            </ul>
+                        </li>
                         <li>
                              <form>
                                 <div class="input-field">
@@ -115,7 +126,7 @@
                 <div class="">
                     <!-- Main content -->
                     <section class="">
-                        <div class="">
+                        <div id="c1" class="section scrollspy">
                             <h3> Categoría 1</h3>
                             <div class="">
                                 <div >
@@ -232,9 +243,8 @@
                             <!--/well-->
                         </div>
 
-                        <div class="">
-                            <h3> Categoría 1</h3>
-                            <div class="">
+                        <div id="c2" class="section scrollspy">
+                            <h3> Categoría 2</h3>
                                 <div >
                                 <!-- Carousel items -->
                                     <div class="carousel carousel-slider center">                                    
@@ -343,7 +353,6 @@
                                     <a class="" href="#myCarousel" data-slide="next">
                                         <i class="" aria-hidden="true"></i>
                                     </a>
-                                </div>  
                                 <!--/myCarousel-->
                             </div>
                             <!--/well-->
@@ -353,8 +362,8 @@
                     </div>
                     <!-- Termina carrusel 2 -->
                     <!-- Carrusel 3-->
-                    <div class="">
-                            <h3> Categoría 1</h3>
+                    <div id="c3" class="section scrollspy">
+                            <h3> Categoría 3</h3>
                             <div class="">
                                 <div >
                                 <!-- Carousel items -->
@@ -471,7 +480,7 @@
                         </div>
                     <!-- Termina carrusel 3 -->
                     <!-- Carrusel 4-->
-                    <div class="">
+                    <div id="c4" class="section scrollspy">
                         <h3>Categoría 4</h3>
                         <div class="">
                                 <div>
@@ -547,6 +556,7 @@
             $(document).ready(function(){
                 $('.carousel.carousel-slider').carousel({shift:-40,padding:300,dist:-70});
                 $(".dropdown-button").dropdown();
+                $('.scrollspy').scrollSpy();
             });
         </script>
     </body>

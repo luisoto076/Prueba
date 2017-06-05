@@ -7,6 +7,10 @@ body{
   color:white;
 }
 
+.dropdown-content{
+  top: 65px!important;
+}
+
 
 .carousel.carousel-slider{
     margin: 20px auto;
