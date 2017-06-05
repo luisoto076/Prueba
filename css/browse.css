@@ -1,10 +1,18 @@
 nav{
   background-color: #444444;
+  position: fixed;
+  top: 0px;
+  z-index: 5
 }
 
 body{
   background-color: black;
   color:white;
+}
+
+.brand-logo + .dropdown-button{
+  position: relative;
+  left: 150px;
 }
 
 .dropdown-content{
@@ -18,10 +26,11 @@ body{
     width: 100% !important;
 }
 
-.carousel-item{
+div.carousel-item{
     margin: auto;
     top: 60px!important;
-    width: 215px!important
+    width: 215px!important;
+    height: 200px!important;
 }
 
 .carousel.csl{
@@ -45,7 +54,25 @@ body{
 
 a.dropdown-button{
   min-width: 75px!important;
+  height: 64px
 }
+
+.table-of-contents.dropdown-content{
+  width: 150px!important; 
+}
+
+#espacio{
+  height: 65px;
+}
+
+/**
+.img:hover{
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2)
+}*/
 
 ul{}
 
