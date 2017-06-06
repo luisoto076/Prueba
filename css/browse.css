@@ -114,14 +114,13 @@ h2{}
 
 .scrollspy .carousel-slider .carousel-item a img:hover {
   
-   width: 270px;
-   height: 175px;
-   margin-left: 30px;
-   margin-top: -10px;
-   margin-right: 30px;
+   width: 225px;
+   height: 130px;
+   margin-left: 10px;
+   margin-right: 10px;
    padding-top: 10px;
-   padding-left: -30x;
-   padding-right: -30px;
+   padding-left: -40x;
+   padding-right: 15px;
 
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
@@ -148,12 +147,12 @@ h2{}
   
    width: 220px;
    height: 400px;
-   margin-left: -35px;
-   margin-top: -10px;
-   margin-right: 30px;
+   margin-left: 10px;
+  
+   margin-right: 10px;
    padding-top: 10px;
-   padding-left: -15px;
-   padding-right: -30px;
+   padding-left: -40x;
+   padding-right: 15px;
 
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
