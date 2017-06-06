@@ -1,3 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+   background: rgba(0,0,0,0.9);
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+
+ }
+
 nav{
   background-color: #444444;
   position: fixed;
@@ -17,32 +30,6 @@ body{
 
 .dropdown-content{
   top: 65px!important;
-}
-
-
-.carousel.carousel-slider{
-    margin: 20px auto;
-    height: 260px!important;
-    width: 100% !important;
-}
-
-div.carousel-item{
-    margin: auto;
-    top: 60px!important;
-    width: 215px!important;
-    height: 200px!important;
-}
-
-.carousel.csl{
-    margin: 20px auto;
-    height: 420px!important;
-    width: 100% !important;
-}
-
-.carousel-item.cil{
-    margin: auto;
-    top: 10px!important;
-    width: 215px!important
 }
 
 .badge{
@@ -65,14 +52,6 @@ a.dropdown-button{
   height: 65px;
 }
 
-/**
-.img:hover{
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -o-transform: scale(2);
-    -ms-transform: scale(2);
-    transform: scale(2)
-}*/
 
 ul{}
 
@@ -80,6 +59,98 @@ li{}
 
 h2{}
 
+.scrollspy * {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.scrollspy {
+ 
+  margin:20px auto 30px;
+    
+}
+
+.scrollspy .carousel-slider {
+  padding-top: 30px;
+  margin-top: 20px;
+  height: 260px!important;
+  width: 100% !important;
+}
+
+.scrollspy .carousel-slider .carousel-item {
+
+  float:left;
+  list-style-type: none;
+  top: 60px!important;
+  width: 215px!important
+ }
+
+.scrollspy .carousel-slider .carousel-item a {
+   text-decoration:none;
+ }
+
+
+.scrollspy .carousel-slider .carousel-item a img{
+   
+   border:none;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.scrollspy .carousel-slider .carousel-item a img:hover {
+  
+   width: 270px;
+   height: 175px;
+   margin-left: -35px;
+   margin-top: -10px;
+   margin-right: 30px;
+   padding-top: 10px;
+   padding-left: -15px;
+   padding-right: -30px;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   -ms-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+   z-index: 1002;
+}
+
+
+.carousel.csl{
+    margin: 20px auto;
+    height: 420px!important;
+    width: 100% !important;
+}
+
+.carousel-item.cil{
+    margin: auto;
+    top: 10px!important;
+    width: 215px!important
+}
+
+.scrollspy .carousel-slider.csl .carousel-item.cil a img:hover {
+  
+   width: 220px;
+   height: 400px;
+   margin-left: -35px;
+   margin-top: -10px;
+   margin-right: 30px;
+   padding-top: 10px;
+   padding-left: -15px;
+   padding-right: -30px;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   -ms-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+   z-index: 1002;
+}
 
 .collection-item{}
 
